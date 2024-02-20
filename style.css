@@ -52,6 +52,7 @@ section{
     bottom: 0;
     right: 0;
     margin-inline: 4rem;
+    margin-block-end: 4rem;
 }
 section h3{
     margin-block: 2rem;
