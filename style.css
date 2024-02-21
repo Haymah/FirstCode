@@ -10,14 +10,24 @@ body{
   height: 120dvh;
 }
 div#firstDiv{
-    background-color:#fff ;
+    background-color:red ;
     height: 150px;
     width: 30%;
     padding: 2rem;
     border-radius: 12px;
     opacity: 0.5;
     margin: 30px;
+    animation-duration:4s;
 }
+div#firstDiv:hover{
+    animation-name: miova;
+}
+@keyframes miova{
+    from {background-color: yellow
+     }
+     to{ background-color:red}
+
+ }
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
