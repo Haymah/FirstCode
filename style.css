@@ -18,20 +18,23 @@ div#firstDiv{
     opacity: 0.5;
     margin: 30px;
     animation-duration:4s;
+    scale: 0.9;
 }
 div#firstDiv:hover{
     animation-name: miova;
-    scale: 1 1;
     animation: mymove 5s infinite;
 }
-@keyframes miova{
-    from {background-color: yellow
-     }
-     to{ background-color:red}
 
- }
+
+@keyframes miova{
+    from {background-color: yellow}
+     to{ background-color:red}
+    }
  @keyframes mymove{
-    50%{rotate: 100;}
+    50%{
+        rotate: x 30deg;
+        scale: 1;
+    }
  }
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
